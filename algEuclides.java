@@ -27,6 +27,6 @@ public class algEuclides{
     System.out.print("Insira o segundo numero: ");
     num2 = entrada.nextInt();
 
-    System.out.printf("O M.D.C destes numeros eh %d\n", euclides(num1, num2));
+    System.out.println("O M.D.C destes numeros eh "+ euclides(num1, num2));
   }
 }
