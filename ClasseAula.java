@@ -12,7 +12,8 @@ public class ClasseAula{
     float mediaIdades(int[] todasIdades, int alunos){
 	int soma = 0;
 	for(int i=0;i<alunos;i++) soma+=todasIdades[i];
-	return soma/alunos;
+	float media = soma/alunos;
+	return media;
     }
     int getAlunos(){ return alunos;}
     int getCadeiras(){ return cadeiras;}
